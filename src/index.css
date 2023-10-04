@@ -1,0 +1,22 @@
+
+
+
+@import 'codemirror/lib/codemirror.css';
+@import 'codemirror/theme/material.css';
+
+.CodeMirror{
+    height: 350px !important;
+    color: #fff;
+ }
+ 
+ .CodeMirror-gutters {
+   background:rgb(30 41 59) !important
+ }
+ 
+ .CodeMirror-scroll{
+   background: rgb(30 41 59);
+ }
+
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
